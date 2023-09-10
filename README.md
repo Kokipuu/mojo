@@ -21,3 +21,17 @@ Mojoを使えば，Cよりも高速で，Pythonエコシステムとシームレ
 4. Mojo SDKをインストール
 
 後は，VScode上でWSLに切り替えたら使える．
+
+## Hello World!
+
+hello.mojo というファイルを作成．
+
+    print("Hello, world!")
+
+VScodeのターミナルで以下を実行．
+
+    mojo hello.mojo
+
+出力．
+
+    Hello, world!
