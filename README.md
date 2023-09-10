@@ -26,7 +26,8 @@ Mojoを使えば，Cよりも高速で，Pythonエコシステムとシームレ
 
 hello.mojo というファイルを作成．
 
-    print("Hello, world!")
+    fn main():
+        print("Hello, world!")
 
 VScodeのターミナルで以下を実行．
 
